@@ -1,0 +1,29 @@
+# 构建产物（必须严格隔离，禁止提交到 Git）
+build/
+bin/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Python 虚拟环境与字节码
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+
+# IDE 与编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.user
+compile_commands.json
+.cache/
